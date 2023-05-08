@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+section {
+    width: 100%;
+    max-width: 1000px;
+}
+.image-height-port {
+    height: auto;
+}
+.card {
+    margin: 0 auto;
+    background-color: #F8FBFE;
+    border-radius: 8px;
+    z-index: 1;
+    padding: 0;
+}
+.card-color {
+    flex-basis: 250px;
+    flex-grow: 1;
+}
+.tools {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+}
+.circle {
+    padding: 0 4px;
+}   
+.box {
+    display: inline-block;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    border-radius: 50%;
+}   
+.red {
+    background-color: #ff605c;
+}
+
+.yellow {
+    background-color: #ffbd44;
+}   
+.green {
+    background-color: #00ca4e;
+}
+.card-desc {
+    font-size: small;
+}
+.font-larger {
+    font-size: 6em;
+}
+.no-bullets {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.fly-card {
+    position: relative;
+    top: -5em;
+    width: 560px;
+    margin: auto;
+    max-width: 95vw;
+    font-size: calc(.5vw + .5em);
+}
+.card__context {
+    position: relative;
+}
+.header-text {
+    min-height: 10em;
+}
+.banner {
+    width: 100%;
+    height: 10em;
+    object-fit: cover;
+}
+.st-background-costum {
+    background-color: #273751;
+}
+
+@media (max-width: 578px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    .client {
+        flex-direction: column !important;
+    }
+}
+@media (max-width: 767px) {
+    .fly-card {
+        width: 400px;
+        flex-direction: column;
+    }
+}
