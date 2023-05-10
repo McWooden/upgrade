@@ -83,6 +83,12 @@ section {
     background-color: #273751;
 }
 
+@media (max-width: 767px) {
+    .fly-card {
+        width: 400px;
+        flex-direction: column;
+    }
+}
 @media (max-width: 578px) {
     header {
         display: flex;
@@ -91,10 +97,7 @@ section {
     .client {
         flex-direction: column !important;
     }
-}
-@media (max-width: 767px) {
     .fly-card {
-        width: 400px;
-        flex-direction: column;
+        width: 90%;
     }
 }
